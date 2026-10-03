@@ -15,7 +15,7 @@
 1. 画像ファイルを `assets/images/` に置きます。
 2. `content.js` 内の画像パスを `assets/images/ファイル名.jpg` のように設定します。
 
-SVG、PNG、JPEG、WebPなどのブラウザーで表示できる形式を使えます。ヒーロー画像は `hero.image`、理念画像は `philosophy.image`、イベント画像は各 `events.items` 項目の `image` で指定します。ロゴは `assets/images/shintoq-logo.jpg` を差し替えます。
+SVG、PNG、JPEG、WebPなどのブラウザーで表示できる形式を使えます。ヒーロー画像は `hero.image`、理念画像は `philosophy.image`、イベント画像は各 `events.items` 項目の `image` で指定します。ヘッダーのロゴは背景透過済みの `assets/images/shintoq-logo-header.png`、フッターのロゴは `assets/images/shintoq-logo.jpg` を差し替えます。
 
 ## 公開前の設定
 

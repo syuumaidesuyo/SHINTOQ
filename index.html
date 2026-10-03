@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f3f3e9">
+    <meta name="description" content="長野と東京のあいだに、新しい流れを。SHINTOQは人と地域の可能性をつなぎます。">
+    <title>SHINTOQ | 長野と東京のあいだに、新しい流れを。</title>
+    <link rel="icon" href="assets/images/shintoq-logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="content.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="SHINTOQ トップ">
+        <img src="assets/images/shintoq-logo.svg" alt="SHINTOQ" width="112" height="54">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-toggle-label">メニュー</span>
+        <span class="menu-toggle-icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="メインナビゲーション">
+        <a href="#about">わたしたち</a>
+        <a href="#activities">活動内容</a>
+        <a href="#events">イベント</a>
+        <a class="nav-cta" href="#join">一緒に活動する <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img class="hero-image" id="hero-image" src="" alt="" fetchpriority="high">
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">NAGANO × TOKYO / PEOPLE, PLACE &amp; POSSIBILITY</p>
+          <h1 id="hero-title">長野と東京のあいだに、<br>新しい流れを。</h1>
+          <p class="hero-description" id="hero-description"></p>
+        </div>
+        <a class="hero-link" href="#about">SHINTOQについて <span aria-hidden="true">↓</span></a>
+      </section>
+
+      <div class="field-strip" aria-label="SHINTOQの活動領域">
+        <span>OUR FIELD</span>
+        <span>NAGANO — TOKYO</span>
+        <span>地域から、つながりをデザインする。</span>
+      </div>
+
+      <section class="about-section page-width" id="about">
+        <div class="about-intro">
+          <div class="section-title">
+            <p class="eyebrow">01 / WHY WE CONNECT</p>
+            <h2>距離をこえて、<br>人と地域の可能性をひらく。</h2>
+          </div>
+          <p class="about-copy" id="about-description"></p>
+        </div>
+        <div class="philosophy-feature">
+          <img id="philosophy-image" src="" alt="">
+          <div class="philosophy-copy">
+            <p class="eyebrow">OUR PHILOSOPHY</p>
+            <h3 id="philosophy-title"></h3>
+            <p id="philosophy-description"></p>
+          </div>
+        </div>
+        <div class="principles-grid" id="principles"></div>
+      </section>
+
+      <section class="activities-section" id="activities">
+        <div class="page-width">
+          <div class="activities-intro">
+            <div class="section-title">
+              <p class="eyebrow">02 / WHAT WE DO</p>
+              <h2>関わり方から、<br>一緒につくる。</h2>
+            </div>
+            <p id="activities-description"></p>
+          </div>
+          <div class="activity-grid" id="activity-grid"></div>
+        </div>
+      </section>
+
+      <section class="events-section page-width" id="events">
+        <div class="events-intro">
+          <div class="section-title">
+            <p class="eyebrow">03 / UPCOMING EVENTS</p>
+            <h2>次の一歩を、ここから。</h2>
+          </div>
+          <p id="events-description"></p>
+        </div>
+        <div class="events-toolbar">
+          <p>開催予定のイベント・参加メンバーを募集中。</p>
+          <a class="button button-green button-small" href="#join"><span aria-hidden="true">＋</span> イベントを追加</a>
+        </div>
+        <div class="event-grid" id="event-grid"></div>
+      </section>
+
+      <section class="join-section" id="join">
+        <div class="page-width join-content">
+          <div>
+            <p class="eyebrow">LET’S CONNECT</p>
+            <h2 id="join-title"></h2>
+            <p id="join-description"></p>
+          </div>
+          <a class="button button-green" id="contact-link" href="#events">お問い合わせ <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-width footer-inner">
+        <a class="footer-logo" href="#top" aria-label="SHINTOQ トップ">
+          <img src="assets/images/shintoq-logo.svg" alt="SHINTOQ" width="288" height="140">
+        </a>
+        <p id="footer-message"></p>
+        <small>© SHINTOQ</small>
+      </div>
+    </footer>
+  </body>
+</html>

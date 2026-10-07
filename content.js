@@ -90,5 +90,10 @@ window.SHINTOQ_CONTENT = {
     description: "参加したい方も、地域で一緒に活動したい方も、お気軽にご連絡ください。",
     contactUrl: "mailto:hello@shintoq.jp?subject=SHINTOQ%20%E3%81%B8%E3%81%AE%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
   },
+  instagram: {
+    handle: "@shintoq_07",
+    url: "https://www.instagram.com/shintoq_07?stkn=cmZzeTdxenN3bGIy",
+    description: "長野と東京での活動やイベントの様子、地域で見つけた人・場所・アイデアを発信しています。SHINTOQのこれからの活動や参加募集も、ぜひチェックしてください。"
+  },
   footer: "長野と東京をつなぐ。人と地域の、新しい関係をつくる。"
 };

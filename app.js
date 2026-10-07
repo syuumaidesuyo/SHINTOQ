@@ -114,6 +114,9 @@
   setText("join-title", content.join.title);
   setText("join-description", content.join.description);
   document.getElementById("contact-link").href = content.join.contactUrl;
+  setText("instagram-description", content.instagram.description);
+  setText("instagram-handle", content.instagram.handle);
+  document.getElementById("instagram-link").href = content.instagram.url;
   setText("footer-message", content.footer);
   renderPrinciples();
   renderActivities();

@@ -54,34 +54,24 @@ window.SHINTOQ_CONTENT = {
     description: "参加する、手伝う、まず話を聞く。あなたらしい関わり方で、SHINTOQの活動に加わってみませんか。",
     items: [
       {
-        date: "2026年10月18日(日)",
-        location: "長野県・上田市",
-        category: "長野で出会う",
-        title: "信州の森を歩く、春の交流会",
-        description: "森を歩き、地元の人とこれからの地域のことを話す一日。初めての方も歓迎です。",
-        image: "assets/images/forest.jpg",
-        imageAlt: "光が差し込む森の小道",
-        link: "mailto:hello@shintoq.jp?subject=%E6%98%A5%E3%81%AE%E4%BA%A4%E6%B5%81%E4%BC%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
-      },
-      {
-        date: "2026年11月8日(日)",
-        location: "東京都・清澄白河",
+        date: "2026年11月21日(土)",
+        location: "東京都・二子玉川",
         category: "東京でつながる",
-        title: "東京ミートアップ｜地域とつながる暮らし",
-        description: "長野に関わる人たちと、地域との新しい関わり方を気軽に話してみませんか。",
-        image: "assets/images/tokyo-night.jpg",
-        imageAlt: "夜の東京の街並み",
-        link: "mailto:hello@shintoq.jp?subject=%E6%9D%B1%E4%BA%AC%E3%83%9F%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+        title: "二子玉川に出店します",
+        description: "11月21日、二子玉川に出店します。SHINTOQの活動や長野の魅力をご紹介します。ぜひお立ち寄りください。",
+        image: "assets/images/futako-tamagawa-pop-up.svg",
+        imageAlt: "多摩川と橋を背景に、二子玉川に並ぶポップアップテント",
+        link: "mailto:hello@shintoq.jp?subject=%E4%BA%8C%E5%AD%90%E7%8E%89%E5%B7%9D%E5%87%BA%E5%BA%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
       },
       {
-        date: "2026年11月22日(日)",
-        location: "オンライン・長野県内",
-        category: "メンバー募集",
-        title: "地域のアイデアを持ち寄る、小さな作戦会議",
-        description: "地域でやってみたいことを持ち寄り、仲間と一緒に最初の一歩を考える時間です。",
-        image: "assets/images/community.jpg",
-        imageAlt: "テーブルを囲み、食事をしながら話す人々",
-        link: "mailto:hello@shintoq.jp?subject=%E4%BD%9C%E6%88%A6%E4%BC%9A%E8%AD%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+        date: "2026年12月12日(土)〜13日(日)",
+        location: "長野県・塩尻市",
+        category: "長野で出会う",
+        title: "こどもしおじり",
+        description: "12月12日から13日の2日間、「こどもしおじり」を開催します。イベントの詳細や参加方法は、決まり次第お知らせします。",
+        image: "assets/images/kodomo-shiojiri.svg",
+        imageAlt: "山並みを背景に、子どもたちが楽しむ地域イベントのイラスト",
+        link: "mailto:hello@shintoq.jp?subject=%E3%81%93%E3%81%A9%E3%82%82%E3%81%97%E3%81%8A%E3%81%98%E3%82%8A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
       }
     ]
   },

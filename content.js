@@ -59,8 +59,15 @@ window.SHINTOQ_CONTENT = {
         category: "東京でつながる",
         title: "二子玉川に出店します",
         description: "11月21日、二子玉川に出店します。SHINTOQの活動や長野の魅力をご紹介します。ぜひお立ち寄りください。",
-        image: "assets/images/futa-tamagawa-market.jpg",
-        imageAlt: "二子玉川出店のイメージ写真。色鮮やかな野菜や果物が並ぶマーケット",
+        image: "assets/images/futa-tamagawa-station-photo.jpg",
+        imageAlt: "二子玉川駅東口の駅前広場。駅舎と歩行者が見える写真",
+        photoCredit: {
+          author: "Wpcpey",
+          authorUrl: "https://commons.wikimedia.org/wiki/User:Wpcpey",
+          sourceUrl: "https://commons.wikimedia.org/wiki/File:Futako-Tamagawa_Station_East_Entrance_2018.jpg",
+          license: "CC BY-SA 4.0",
+          licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
         link: "mailto:hello@shintoq.jp?subject=%E4%BA%8C%E5%AD%90%E7%8E%89%E5%B7%9D%E5%87%BA%E5%BA%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
       },
       {
@@ -69,8 +76,15 @@ window.SHINTOQ_CONTENT = {
         category: "長野で出会う",
         title: "こどもしおじり",
         description: "12月12日から13日の2日間、「こどもしおじり」を開催します。イベントの詳細や参加方法は、決まり次第お知らせします。",
-        image: "assets/images/kodomo-shiojiri-photo.jpg",
-        imageAlt: "こどもしおじりのイメージ写真。イベントを楽しむ子ども",
+        image: "assets/images/kodomo-shiojiri-photo-japan.jpg",
+        imageAlt: "笑顔で肩を組む日本人の小学生たち",
+        photoCredit: {
+          author: "Aka Hige",
+          authorUrl: "https://commons.wikimedia.org/wiki/User:Aka_Hige",
+          sourceUrl: "https://commons.wikimedia.org/wiki/File:Japanese_schoolboys_smiling.jpg",
+          license: "CC BY-SA 2.0",
+          licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/"
+        },
         link: "mailto:hello@shintoq.jp?subject=%E3%81%93%E3%81%A9%E3%82%82%E3%81%97%E3%81%8A%E3%81%98%E3%82%8A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
       }
     ]

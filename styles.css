@@ -94,6 +94,8 @@ button { font: inherit; }
 .event-body { padding-top: 15px; }
 .event-date { margin: 0 0 8px; color: var(--green); font-size: .66rem; font-weight: 700; }
 .event-location { color: var(--muted); font-weight: 500; }
+.event-photo-credit { margin: -3px 0 8px; color: var(--muted); font-size: .56rem; line-height: 1.5; }
+.event-photo-credit a { text-decoration: underline; text-underline-offset: 2px; }
 .event-body h3 { margin: 0 0 8px; font-size: 1rem; font-weight: 700; line-height: 1.7; }
 .event-description { min-height: 52px; margin: 0; color: var(--muted); font-size: .72rem; line-height: 1.9; }
 .event-details { display: inline-flex; align-items: center; gap: 10px; margin-top: 11px; color: var(--green); font-size: .66rem; font-weight: 700; }

@@ -93,7 +93,30 @@
 
       const body = document.createElement("div");
       body.className = "event-body";
-      body.append(date, title, description, details);
+      body.append(date);
+      if (event.photoCredit) {
+        const credit = document.createElement("p");
+        credit.className = "event-photo-credit";
+        credit.append(document.createTextNode("写真: "));
+        const author = document.createElement("a");
+        author.href = event.photoCredit.authorUrl;
+        author.target = "_blank";
+        author.rel = "noopener noreferrer";
+        author.textContent = event.photoCredit.author;
+        const license = document.createElement("a");
+        license.href = event.photoCredit.licenseUrl;
+        license.target = "_blank";
+        license.rel = "noopener noreferrer";
+        license.textContent = event.photoCredit.license;
+        const source = document.createElement("a");
+        source.href = event.photoCredit.sourceUrl;
+        source.target = "_blank";
+        source.rel = "noopener noreferrer";
+        source.textContent = "出典";
+        credit.append(author, document.createTextNode(" / "), license, document.createTextNode(" · "), source);
+        body.append(credit);
+      }
+      body.append(title, description, details);
       article.append(imageLink, body);
       container.append(article);
     });

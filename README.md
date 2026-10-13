@@ -19,6 +19,8 @@
 
 SVG、PNG、JPEG、WebPなどのブラウザーで表示できる形式を使えます。ヒーロー画像は `hero.image`、理念画像は `philosophy.image`、イベント画像は各 `events.items` 項目の `image` で指定します。ヘッダーのロゴは背景透過済みの `assets/images/shintoq-logo-header.png`、フッターのロゴは `assets/images/shintoq-logo.jpg` を差し替えます。
 
+イベントに掲載している写真は開催イメージ用です。実際の会場や出店、参加者を撮影した写真ではありません。
+
 ## 公開前の設定
 
 - `content.js` の活動・イベント・募集内容を最新情報に更新する

@@ -59,8 +59,8 @@ window.SHINTOQ_CONTENT = {
         category: "東京でつながる",
         title: "二子玉川に出店します",
         description: "11月21日、二子玉川に出店します。SHINTOQの活動や長野の魅力をご紹介します。ぜひお立ち寄りください。",
-        image: "assets/images/futako-tamagawa-pop-up.svg",
-        imageAlt: "多摩川と橋を背景に、二子玉川に並ぶポップアップテント",
+        image: "assets/images/futa-tamagawa-market.jpg",
+        imageAlt: "二子玉川出店のイメージ写真。色鮮やかな野菜や果物が並ぶマーケット",
         link: "mailto:hello@shintoq.jp?subject=%E4%BA%8C%E5%AD%90%E7%8E%89%E5%B7%9D%E5%87%BA%E5%BA%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
       },
       {
@@ -69,8 +69,8 @@ window.SHINTOQ_CONTENT = {
         category: "長野で出会う",
         title: "こどもしおじり",
         description: "12月12日から13日の2日間、「こどもしおじり」を開催します。イベントの詳細や参加方法は、決まり次第お知らせします。",
-        image: "assets/images/kodomo-shiojiri.svg",
-        imageAlt: "山並みを背景に、子どもたちが楽しむ地域イベントのイラスト",
+        image: "assets/images/kodomo-shiojiri-photo.jpg",
+        imageAlt: "こどもしおじりのイメージ写真。イベントを楽しむ子ども",
         link: "mailto:hello@shintoq.jp?subject=%E3%81%93%E3%81%A9%E3%82%82%E3%81%97%E3%81%8A%E3%81%98%E3%82%8A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
       }
     ]

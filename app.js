@@ -52,6 +52,29 @@
     });
   };
 
+  const renderActivityHistory = () => {
+    const container = document.getElementById("activity-history-grid");
+    content.activityHistory.items.forEach((item) => {
+      const article = document.createElement("article");
+      article.className = "activity-history-card";
+      const image = makeImage(item.image, item.imageAlt, "activity-history-image");
+      if (image) article.append(image);
+
+      const body = document.createElement("div");
+      body.className = "activity-history-body";
+      const category = document.createElement("p");
+      category.className = "activity-history-category";
+      category.textContent = item.category;
+      const title = document.createElement("h3");
+      title.textContent = item.title;
+      const description = document.createElement("p");
+      description.textContent = item.description;
+      body.append(category, title, description);
+      article.append(body);
+      container.append(article);
+    });
+  };
+
   const renderEvents = () => {
     const container = document.getElementById("event-grid");
     content.events.items.forEach((event) => {
@@ -133,6 +156,8 @@
   setText("philosophy-title", content.philosophy.title);
   setText("philosophy-description", content.philosophy.description);
   setText("activities-description", content.activities.description);
+  setText("activity-history-description", content.activityHistory.description);
+  setText("activity-history-note", content.activityHistory.note);
   setText("events-description", content.events.description);
   setText("join-title", content.join.title);
   setText("join-description", content.join.description);
@@ -143,6 +168,7 @@
   setText("footer-message", content.footer);
   renderPrinciples();
   renderActivities();
+  renderActivityHistory();
   renderEvents();
 
   const menuToggle = document.querySelector(".menu-toggle");

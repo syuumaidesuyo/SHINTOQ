@@ -50,6 +50,33 @@ window.SHINTOQ_CONTENT = {
       }
     ]
   },
+  activityHistory: {
+    description: "長野と東京を行き来しながら取り組んでいる活動を、テーマごとに紹介します。",
+    note: "写真は活動のイメージです。個別の開催記録・開催日は、確認できたものから追加していきます。",
+    items: [
+      {
+        category: "MEET PEOPLE",
+        title: "地域の人と出会う",
+        description: "まち歩きや交流の場を通じて、地域で暮らす人の声や土地の魅力にふれる活動。",
+        image: "assets/images/forest.jpg",
+        imageAlt: "地域を歩いて自然や風景にふれる活動のイメージ"
+      },
+      {
+        category: "TRY IDEAS",
+        title: "アイデアを形にする",
+        description: "地域の素材や課題を持ち寄り、対話しながら小さな企画やプロジェクトを考える活動。",
+        image: "assets/images/community.jpg",
+        imageAlt: "仲間が集まり、食卓を囲んで話し合う活動のイメージ"
+      },
+      {
+        category: "KEEP CONNECTING",
+        title: "長野と東京をつなぐ",
+        description: "訪問や情報発信を重ね、地域と都市のあいだに続いていく関係を育てる活動。",
+        image: "assets/images/nagano-mountains.jpg",
+        imageAlt: "長野の山並みと森の風景"
+      }
+    ]
+  },
   events: {
     description: "参加する、手伝う、まず話を聞く。あなたらしい関わり方で、SHINTOQの活動に加わってみませんか。",
     items: [

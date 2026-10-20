@@ -73,6 +73,8 @@ button { font: inherit; }
 .activity-number { display: flex; align-items: center; justify-content: center; width: 38px; height: 38px; margin-bottom: 22px; border: 1px solid rgba(215,232,135,.48); border-radius: 50%; color: var(--lime); font-size: .73rem; }
 .activity-card h3 { margin: 0 0 11px; font-size: 1rem; }
 .activity-card p { max-width: 360px; margin: 0; color: rgba(255,255,255,.73); font-size: .73rem; line-height: 1.95; }
+.activity-history-link { display: inline-flex; align-items: center; gap: 18px; margin-top: 27px; padding-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,.5); color: white; font-size: .72rem; font-weight: 600; }
+.activity-history-link span { color: var(--lime); }
 
 .events-section { padding-top: 100px; padding-bottom: 85px; }
 .events-intro { padding-bottom: 44px; }
@@ -100,6 +102,18 @@ button { font: inherit; }
 .event-description { min-height: 52px; margin: 0; color: var(--muted); font-size: .72rem; line-height: 1.9; }
 .event-details { display: inline-flex; align-items: center; gap: 10px; margin-top: 11px; color: var(--green); font-size: .66rem; font-weight: 700; }
 .event-details span { color: var(--orange); font-size: .9rem; }
+
+.activity-history-section { padding-top: 72px; padding-bottom: 88px; }
+.activity-history-intro { display: grid; grid-template-columns: 1fr 1fr; align-items: end; gap: 10%; }
+.activity-history-intro > p { max-width: 500px; margin: 0 0 5px; color: var(--muted); font-size: .82rem; line-height: 2.15; }
+.activity-history-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 36px; }
+.activity-history-card { min-width: 0; background: white; }
+.activity-history-image { width: 100%; aspect-ratio: 1.55; object-fit: cover; }
+.activity-history-body { padding: 19px 21px 23px; }
+.activity-history-category { margin: 0 0 10px; color: var(--green); font-size: .58rem; font-weight: 700; letter-spacing: .1em; }
+.activity-history-body h3 { margin: 0 0 8px; font-size: .96rem; line-height: 1.65; }
+.activity-history-body > p:last-child { margin: 0; color: var(--muted); font-size: .72rem; line-height: 1.9; }
+.activity-history-note { margin: 17px 0 0; color: var(--muted); font-size: .62rem; line-height: 1.8; }
 
 .join-section { padding: 56px 0; background: var(--sage); }
 .join-content { display: flex; align-items: center; justify-content: space-between; gap: 45px; }
@@ -140,6 +154,12 @@ button { font: inherit; }
   .activity-card p { font-size: .69rem; }
   .event-grid { gap: 18px; }
   .event-body h3 { font-size: .9rem; }
+  .activity-history-section { padding-top: 58px; padding-bottom: 64px; }
+  .activity-history-intro { gap: 6%; }
+  .activity-history-grid { gap: 16px; }
+  .activity-history-body { padding: 15px; }
+  .activity-history-body h3 { font-size: .86rem; }
+  .activity-history-body > p:last-child { font-size: .67rem; }
   .footer-inner { grid-template-columns: 180px minmax(0, 1fr); gap: 25px; }
   .footer-logo { grid-row: span 2; width: 180px; }
   .footer-instagram { align-self: end; }
@@ -186,6 +206,17 @@ button { font: inherit; }
   .activity-card, .activity-card + .activity-card { min-height: 0; padding: 22px 0; border-bottom: 1px solid rgba(255,255,255,.22); border-left: 0; }
   .activity-number { margin-bottom: 14px; }
   .activity-card p { font-size: .73rem; }
+  .activity-history-section { padding-top: 52px; padding-bottom: 58px; }
+  .activity-history-intro { grid-template-columns: 1fr; gap: 18px; }
+  .activity-history-intro > p { font-size: .76rem; }
+  .activity-history-grid { grid-template-columns: 1fr; gap: 17px; margin-top: 25px; }
+  .activity-history-card { display: grid; grid-template-columns: minmax(105px, .8fr) 1.2fr; }
+  .activity-history-image { height: 100%; min-height: 130px; aspect-ratio: auto; }
+  .activity-history-body { align-self: center; padding: 14px; }
+  .activity-history-category { margin-bottom: 6px; font-size: .52rem; }
+  .activity-history-body h3 { margin-bottom: 6px; font-size: .82rem; }
+  .activity-history-body > p:last-child { font-size: .63rem; }
+  .activity-history-note { font-size: .58rem; }
   .events-section { padding-top: 68px; padding-bottom: 58px; }
   .events-intro { padding-bottom: 28px; }
   .events-toolbar > p { max-width: 58%; font-size: .62rem; }
@@ -250,6 +281,17 @@ button { font: inherit; }
   .activity-number { width: 26px; height: 26px; margin-bottom: 13px; font-size: .53rem; }
   .activity-card h3 { margin-bottom: 7px; font-size: .59rem; }
   .activity-card p { font-size: .44rem; line-height: 1.75; }
+  .activity-history-section { padding-top: 39px; padding-bottom: 46px; }
+  .activity-history-intro { gap: 12px; }
+  .activity-history-intro > p { font-size: .48rem; }
+  .activity-history-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 20px; }
+  .activity-history-card { display: block; }
+  .activity-history-image { width: 100%; height: auto; min-height: 0; aspect-ratio: 1.2; }
+  .activity-history-body { padding: 10px 8px; }
+  .activity-history-category { margin-bottom: 6px; font-size: .35rem; }
+  .activity-history-body h3 { margin-bottom: 5px; font-size: .5rem; line-height: 1.5; }
+  .activity-history-body > p:last-child { font-size: .4rem; line-height: 1.6; }
+  .activity-history-note { margin-top: 11px; font-size: .39rem; }
   .events-section { padding-top: 62px; padding-bottom: 48px; }
   .events-intro { padding-bottom: 27px; }
   .events-toolbar { min-height: 38px; }
